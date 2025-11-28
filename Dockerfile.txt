@@ -3,7 +3,7 @@
 # Environment: Java
 # Minimum Panel Version: 1.7.0
 # ----------------------------------
-FROM  container-registry.oracle.com/graalvm/jdk:21
+FROM  ubuntu:22.04
 
 ARG TARGETPLATFORM
 ARG GRAAL_VERSION=25.0.0
