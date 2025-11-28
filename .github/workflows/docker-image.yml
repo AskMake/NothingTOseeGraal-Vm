@@ -7,8 +7,8 @@ on:
     branches: [ "main" ]
 
 jobs:
-  pterodactyl-graalvm:
-    name: "pterodactyl-graalvm:${{ matrix.tag }}"
+  NothingTOseeGraal-Vm:
+    name: "NothingTOseeGraal-Vm:${{ matrix.tag }}"
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
