@@ -10,6 +10,9 @@ jobs:
   NothingTOseeGraal-Vm:
     name: "NothingTOseeGraal-Vm:${{ matrix.tag }}"
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
     strategy:
       fail-fast: false
       matrix:
